@@ -1,4 +1,9 @@
-# cq-ui
+# cq-ui库
+
+## Todo
+1. 业务组件完善
+2. 打包配置
+3. npm发布
 
 ## Project setup
 ```
