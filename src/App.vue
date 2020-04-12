@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <cq-message></cq-message>
-    <cq-alert></cq-alert>
+    <cq-message :msg="'一条普通提示'"></cq-message>
+    <cq-alert>hahah</cq-alert>
   </div>
 </template>
 
