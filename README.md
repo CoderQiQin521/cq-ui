@@ -1,28 +1,19 @@
-# cq-ui库
+# cq-ui业务组件库
 
 ## Todo
 1. 业务组件完善
 2. 打包配置
 3. npm发布
 
-## Project setup
+## How to use
 ```
-npm install
+npm install --save cq-ui
 ```
-
-### Compiles and hot-reloads for development
+main.js
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+import cqui from 'cq-ui'
+import 'cq-ui/lib/cqui.css'
+Vue.use(cqui)
 ```
 
 ### Customize configuration
