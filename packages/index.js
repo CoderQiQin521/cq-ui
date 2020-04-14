@@ -1,9 +1,11 @@
 import alert from './alert'
 import message from './message'
+import liMarquee from './liMarquee'
 
 const components = [
   alert,
-  message
+  message,
+  liMarquee
 ]
 
 const install = (Vue) => {
