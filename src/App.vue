@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <cq-liMarquee
+    <div>一个业务组件</div>
+    <br />
+    <!-- 业务组件接受的参数 -->
+    <demo :time="1500" :msg="'success'"></demo>
+    <!-- <cq-liMarquee
       class="dowebok"
       :direction="'left'"
       :scrollamount="240"
@@ -72,7 +76,7 @@
           <a href="javascript:">shCircleLoader – jQuery Loading效果插件</a>
         </li>
       </ul>
-    </cq-liMarquee>
+    </cq-liMarquee>-->
 
     <!-- <cq-message :msg="'一条普通提示'"></cq-message>
     <cq-alert>hahah</cq-alert>-->
