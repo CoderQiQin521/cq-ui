@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     async fetch() {
-      console.log("假如这是一个复杂的业务组件,(飞冰称为区块),甚至一个页面");
+      console.log("假如这是一个复杂的业务组件,(飞冰称为区块), 或一个页面");
 
       let { data } = await axios.get(
         "https://www.fastmock.site/mock/de8258e7b013fd4589f4d7ed66c78b75/testmock/flutter"
